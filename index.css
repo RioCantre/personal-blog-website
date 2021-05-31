@@ -29,7 +29,6 @@ li a:hover {
 }
 
 .container-fluid {
-  text-align: center;
   max-width: 900px;
   display: block;
   margin: 0;
@@ -42,20 +41,81 @@ h1 {
   font-size: 64px !important;
   color: #0c262a;
 }
-
-/* .blogGallery {
-  display: flex;
-} */
-.firstRow {
-  padding: 40px 20px;
-  background-color: #e7d1c0;
-  margin: 20px 20px;
+p {
+  font-family: "Roboto", sans-serif;
 }
-/* .box {
-  margin: 10px;
-  width: 300px;
-  height: 200px;
-} */
+.galleryBlog {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.subHeader {
+  text-align: center;
+}
+
+.box {
+  background-color: #e7d1c0;
+  padding: 20px 20px;
+  margin: 20px 20px;
+  box-shadow: 5px 5px 8px #0c262a;
+}
+
+/* blog gallery */
+.box h2 {
+  font-size: 30px;
+  font-family: "Purple Purse", cursive;
+}
+.box h3 {
+  font-size: 12px;
+}
+.box button {
+  margin-left: 220px;
+  padding: 10px 13px;
+  border-radius: 20px;
+  background-color: #739ba4;
+  border: none;
+  box-shadow: 2px 2px 3px #0c262a;
+}
+.box button a {
+  text-decoration: none;
+  color: #0c262a;
+  font-size: 15px;
+}
+
+.box button a:hover {
+  color: #ffe0b1;
+}
+
+.box1 {
+  background-color: #e7d1c0;
+  padding: 20px 20px;
+  margin: 20px 20px;
+  box-shadow: 5px 5px 8px #0c262a;
+}
+
+.box1 h2 {
+  font-size: 30px;
+  font-family: "Purple Purse", cursive;
+}
+.box1 h3 {
+  font-size: 12px;
+}
+.box1 button {
+  margin-left: 220px;
+  padding: 10px 13px;
+  border-radius: 20px;
+  background-color: #739ba4;
+  border: none;
+  box-shadow: 2px 2px 3px #0c262a;
+}
+.box1 button a {
+  text-decoration: none;
+  color: #0c262a;
+  font-size: 15px;
+}
+.box1 button a:hover {
+  color: #ffe0b1;
+}
 
 /* footer style */
 footer {
