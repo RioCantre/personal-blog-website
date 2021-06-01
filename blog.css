@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Purple+Purse&family=Roboto&display=swap");
+
+body {
+  background-color: #fff3e2 !important;
+}
+
+/* Navbar style */
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+li {
+  margin: 30px;
+  margin-right: 80px;
+  font-size: 12px;
+  margin-top: 60px;
+}
+
+li a {
+  text-decoration: none;
+  color: #0c262a;
+}
+
+li a:hover {
+  color: #ffe0b1;
+}
+
+.container-fluid {
+  max-width: 1000px;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Purple Purse", cursive;
+  font-size: 64px !important;
+  color: #0c262a;
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
+img {
+  max-width: 600px;
+}
+
+h2 {
+  font-family: "Purple Purse", cursive;
+}
+h3 {
+  font-family: "Purple Purse", cursive;
+  font-size: 14px;
+}
+
+.linkList a {
+  color: #739ba4;
+}
+.linkList a:hover {
+  color: #ffe0b1;
+}
+
+.blog-content {
+  margin-bottom: 200px;
+}
+.blog-content p {
+  text-align: justify;
+}
+
+.aboutbox {
+  background: #ffe0b1;
+  padding: 10px 10px;
+}
+.aboutSection h2,
+.aboutSection p {
+  text-align: center;
+}
+
+.selfie {
+  border-radius: 50%;
+}
+
+/* footer style */
+footer {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  background-color: #739ba4;
+  margin: 0;
+  padding: 40px;
+}
+
+footer p {
+  margin: 0;
+  color: #fff3e2;
+}
+
+@media (width: 500px) {
+  .col-4 {
+    display: none;
+  }
+}
