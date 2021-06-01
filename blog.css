@@ -82,6 +82,17 @@ h3 {
   border-radius: 50%;
 }
 
+.contactSection a {
+  padding: 25px 25px;
+  border-radius: 50%;
+  font-size: 30px;
+  text-decoration: none;
+  color: #739ba4;
+}
+.contactSection a:hover {
+  color: #ffe0b1;
+}
+
 /* footer style */
 footer {
   text-align: center;
@@ -100,5 +111,8 @@ footer p {
 @media (width: 500px) {
   .col-4 {
     display: none;
+  }
+  .col-8 {
+    margin-left: 60px;
   }
 }
