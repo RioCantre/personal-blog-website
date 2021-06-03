@@ -13,11 +13,11 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin-right: 15%;
 }
 
 li {
   margin: 30px;
-  margin-right: 80px;
   font-size: 12px;
   margin-top: 60px;
 }
@@ -76,21 +76,50 @@ footer {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   background-color: #739ba4;
-  margin: 0;
+  display: grid;
+  justify-content: center;
   padding: 40px;
 }
 
 footer p {
-  margin: 0;
   color: #fff3e2;
+  margin: 0;
 }
 
-@media (width: 500px) {
+/* media query */
+@media (min-width: 150px) and (max-width: 550px) {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
   .photoGallery {
-    margin-left: 120px;
+    display: grid;
+    justify-content: center;
+  }
+  #image1,
+  #image2,
+  #image3 {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .photoGallery {
+    display: grid;
+    justify-content: center;
   }
   #image1,
   #image2 {
+    display: none;
+  }
+}
+
+@media (max-width: 1400px) {
+  .photoGallery {
+    display: grid;
+    justify-content: center;
+  }
+  #image1 {
     display: none;
   }
 }
