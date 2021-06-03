@@ -96,6 +96,9 @@ footer p {
     display: grid;
     justify-content: center;
   }
+    .img-fluid {
+    width: 350px;
+  }
   #image1,
   #image2,
   #image3 {
