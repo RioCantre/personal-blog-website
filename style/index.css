@@ -21,11 +21,9 @@ body {
   font-size: 64px;
   color: #0c262a;
 }
-p {
-  font-family: "Raleway", sans-serif;
-}
-.sub-header {
+p.sub-header {
   text-align: center;
+  font-family: "Raleway", sans-serif !important;
 }
 
 /* box style */
@@ -44,7 +42,7 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 .box p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
 }
 .box a  {
   padding: 8px 13px;
@@ -73,16 +71,16 @@ p {
     font-size: 50px;
   }
 }
-@media(min-width:500px) and (max-width:800px) {
+@media(min-width:600px) and (max-width:800px) {
     nav {
     display: flex;
     justify-content: center;
-    padding-left: 50px;
   }
 }
-@media (max-width: 1400px) {
+@media (min-width:1000px) and (max-width: 1400px) {
   nav {
     display: flex;
     justify-content: center;
+    padding-left: 100px;
   }
 }

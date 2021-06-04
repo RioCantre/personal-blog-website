@@ -23,7 +23,7 @@ body {
   justify-content: start;
 }
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif !important;
 }
 .author {
   font-size: 13px;
@@ -48,9 +48,10 @@ h3 {
 img {
   max-width: 600px;
 }
-.blog-content p {
+.blog-content p,
+blockquote {
   text-align: justify;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
 }
 .description {
   font-size: 13px;
@@ -137,7 +138,7 @@ img {
 }
 
 /* media query */
-@media (min-width: 150px) and (max-width: 500px) {
+@media (min-width: 150px) and (max-width: 400px) {
   nav {
     display: flex;
     justify-content: center;
@@ -146,7 +147,7 @@ img {
     display: none;
   }
   .col-8 {
-    margin-left: 70px;
+    margin-left: 60px;
   }
   .blog-content p {
     padding: 0;
@@ -163,7 +164,32 @@ img {
     justify-content: center;
   }
 }
-@media(min-width:500px) and (max-width:800px) {
+@media(min-width:400px) and (max-width:750px) {
+    nav {
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+  }
+  .col-4 {
+    display: none;
+  }
+  .col-8 {
+    margin-left: 80px;
+  }
+  .blog-content p {
+    padding: 0;
+    font-size: 15px; 
+  }
+  .header-blog {
+    text-align: center;
+  }
+  .header-blog h1 {
+    font-size: 40px !important;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media(min-width:720px) and (max-width:1050px) {
     nav {
     display: flex;
     justify-content: center;
@@ -173,7 +199,32 @@ img {
     display: none;
   }
   .col-8 {
-    margin-left: 80px;
+    margin-left: 150px;
+  }
+  .blog-content p {
+    padding: 0;
+    font-size: 15px; 
+  }
+  .header-blog {
+    text-align: center;
+  }
+  .header-blog h1 {
+    font-size: 50px !important;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width:900px) and (max-width: 1400px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+  }
+   .col-4 {
+    display: none;
+  }
+  .col-8 {
+    margin-left: 180px;
   }
   .blog-content p {
     padding: 0;
