@@ -66,25 +66,22 @@ p {
 .box h3 {
   font-size: 12px;
 }
-.box section {
+.box p {
   font-family: "Montserrat", sans-serif;
 }
-.box button {
+.box a  {
   padding: 8px 13px;
   border-radius: 20px;
   background-color: #739ba4;
   border: none;
   box-shadow: 2px 2px 3px #0c262a;
-}
-.box button a {
   text-decoration: none;
   color: #0c262a;
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
-
-.box button a:hover {
+.box a:hover {
   color: #ffe0b1;
 }
 
