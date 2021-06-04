@@ -49,9 +49,6 @@ p {
   font-size: 13px;
   font-family: "Raleway", sans-serif;
 }
-img {
-  max-width: 600px;
-}
 
 h2 {
   font-family: "Purple Purse", cursive;
@@ -70,25 +67,32 @@ h3 {
 .blog-content {
   margin-bottom: 200px;
 }
+img {
+  max-width: 600px;
+}
 .blog-content article {
   text-align: justify;
   font-family: "Montserrat", sans-serif;
 }
+.description {
+  font-size: 13px;
+  text-align: center;
+}
 
-.linkList a {
+.link-list a {
   color: #739ba4;
 }
-.linkList a:hover {
+.link-list a:hover {
   color: #ffe0b1;
 }
 
 /* column 2 style */
-.aboutbox {
+.about-box {
   background: #ffe0b1;
   padding: 10px 10px;
 }
-.aboutSection h2,
-.aboutSection p {
+.about-section h2,
+.about-section p {
   text-align: center;
 }
 
@@ -96,14 +100,70 @@ h3 {
   border-radius: 50%;
 }
 
-.contactSection a {
+.contact-section a {
   padding: 25px 25px;
   border-radius: 50%;
   font-size: 30px;
   text-decoration: none;
   color: #739ba4;
 }
-.contactSection a:hover {
+.contact-section a:hover {
+  color: #ffe0b1;
+}
+.subscription input {
+    font-family: "Montserrat", sans-serif;
+}
+
+.subscription button{
+  padding: 8px 13px;
+  border-radius: 20px;
+  background-color: #739ba4;
+  border: none;
+  box-shadow: 2px 2px 3px #0c262a;
+  margin-bottom: 200px;
+
+}
+
+.subscription button a {
+  text-decoration: none;
+  color: #0c262a;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.subscription button a:hover {
+  color: #ffe0b1;
+}
+
+
+.container-message {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 200px;
+}
+.container-message h3 {
+    font-size: 50px;
+}
+.container-message p {
+    font-family: "Montserrat", sans-serif;
+}
+.container-message button {
+  padding: 8px 13px;
+  border-radius: 20px;
+  background-color: #739ba4;
+  border: none;
+  box-shadow: 2px 2px 3px #0c262a;
+}
+.container-message button a {
+  text-decoration: none;
+  color: #0c262a;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.container-message button a:hover {
   color: #ffe0b1;
 }
 
