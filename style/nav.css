@@ -1,0 +1,23 @@
+/* navbar style */
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 15%;
+}
+
+li {
+  margin: 30px;
+  font-size: 12px;
+  margin-top: 60px;
+}
+
+li a {
+  text-decoration: none;
+  color: #0c262a;
+}
+
+li a:hover {
+  color: #ffe0b1;
+}

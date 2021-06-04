@@ -1,0 +1,14 @@
+/* footer style */
+footer {
+  text-align: center;
+  font-size: 12px;
+  background-color: #739ba4;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  font-family: "Roboto", sans-serif;
+  color: #fff3e2;
+  margin: 0;
+}

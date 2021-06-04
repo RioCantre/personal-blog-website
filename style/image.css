@@ -1,30 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Purple+Purse&family=Roboto&display=swap");
+@import "/style/footer.css";
+@import "/style/nav.css";
 
 body {
   background-color: #fff3e2 !important;
-}
-
-/* navbar style */
-ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-right: 15%;
-}
-
-li {
-  margin: 30px;
-  font-size: 12px;
-  margin-top: 60px;
-}
-
-li a {
-  text-decoration: none;
-  color: #0c262a;
-}
-
-li a:hover {
-  color: #ffe0b1;
 }
 
 /* main style */
@@ -70,26 +49,12 @@ li a:hover {
   margin-bottom: 5px;
 }
 
-/* footer style */
-footer {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 12px;
-  background-color: #739ba4;
-  display: flex;
-  justify-content: center;
-  padding: 40px;
-}
-footer p {
-  color: #fff3e2;
-  margin: 0;
-}
-
 /* media query */
 @media (min-width: 150px) and (max-width: 550px) {
-  nav {
+  nav ul {
     display: flex;
     justify-content: center;
+    padding-left: 70px !important;
   }
   .header h1 {
     text-align: center;
@@ -109,6 +74,10 @@ footer p {
   }
 }
 @media (max-width: 900px) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
   .header h1 {
     text-align: center;
     font-size: 50px;
@@ -123,6 +92,13 @@ footer p {
   }
 }
 @media (max-width: 1400px) {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul {
+    padding-left: 160px;
+  }
   .header h1 {
     text-align: center;
     font-size: 50px;

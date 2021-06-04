@@ -1,42 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Purple+Purse&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+@import "/style/footer.css";
+@import "/style/nav.css";
 
 body {
   background-color: #fff3e2 !important;
 }
 
-/* navbar style */
-ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-right: 15%;
-}
-
-li {
-  margin: 30px;
-  font-size: 12px;
-  margin-top: 60px;
-}
-
-li a {
-  text-decoration: none;
-  color: #0c262a;
-}
-
-li a:hover {
-  color: #ffe0b1;
-}
-
 /* main style */
 .container-fluid {
-  max-width: 1000px;
+  max-width: 1000px !important;
   display: grid;
   justify-content: center;
 }
-.header h1 {
+
+.header-blog h1 {
   font-family: "Purple Purse", cursive;
-  font-size: 64px;
+  font-size: 64px !important;
   color: #0c262a;
+  display: flex;
+  justify-content: start;
 }
 p {
   font-family: "Roboto", sans-serif;
@@ -152,23 +136,8 @@ img {
   color: #ffe0b1;
 }
 
-/* footer style */
-footer {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 12px;
-  background-color: #739ba4;
-  padding: 40px;
-  display: flex;
-  justify-content: center;
-}
-footer p {
-  color: #fff3e2;
-  margin: 0;
-}
-
 /* media query */
-@media (min-width: 150px) and (max-width: 550px) {
+@media (min-width: 150px) and (max-width: 500px) {
   nav {
     display: flex;
     justify-content: center;
@@ -177,14 +146,46 @@ footer p {
     display: none;
   }
   .col-8 {
-    margin-left: 50px;
-
+    margin-left: 70px;
   }
-  .header {
+  .blog-content p {
+    padding: 0;
+    font-size: 15px;
+    margin: 0;
+  }
+  .header-blog {
     text-align: center;
   }
-  .header h1 {
+  .header-blog h1 {
+    /* text-align: center !important; */
+    font-size: 40px !important;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media(min-width:500px) and (max-width:800px) {
+    nav {
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+  }
+  .col-4 {
+    display: none;
+  }
+  .col-8 {
+    margin-left: 80px;
+  }
+  .blog-content p {
+    padding: 0;
+    font-size: 15px; 
+  }
+  .header-blog {
     text-align: center;
-    font-size: 50px;
+  }
+  .header-blog h1 {
+    /* text-align: center !important; */
+    font-size: 50px !important;
+    display: flex;
+    justify-content: center;
   }
 }
