@@ -1,13 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Purple+Purse&family=Roboto&display=swap");
 
 body {
   background-color: #fff3e2 !important;
 }
-.container {
-  max-width: 1500px;
-}
 
-/* Navbar style */
+/* navbar style */
 ul {
   list-style: none;
   display: flex;
@@ -31,10 +27,14 @@ li a:hover {
   color: #ffe0b1;
 }
 
-h1 {
+/* main style */
+.container {
+  max-width: 1500px;
+}
+.header h1 {
   text-align: center;
   font-family: "Purple Purse", cursive;
-  font-size: 64px !important;
+  font-size: 64px;
   color: #0c262a;
 }
 
@@ -76,11 +76,10 @@ footer {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   background-color: #739ba4;
-  display: grid;
+  display: flex;
   justify-content: center;
   padding: 40px;
 }
-
 footer p {
   color: #fff3e2;
   margin: 0;
@@ -92,6 +91,10 @@ footer p {
     display: flex;
     justify-content: center;
   }
+  .header h1 {
+    text-align: center;
+    font-size: 50px;
+  }
   .photo-gallery {
     display: grid;
     justify-content: center;
@@ -99,30 +102,36 @@ footer p {
     .img-fluid {
     width: 350px;
   }
-  #image-1,
-  #image-2,
-  #image-3 {
+  .image-1,
+  .image-2,
+  .image-3 {
     display: none;
   }
 }
-
 @media (max-width: 900px) {
+  .header h1 {
+    text-align: center;
+    font-size: 50px;
+  }
   .photo-gallery {
     display: grid;
     justify-content: center;
   }
-  #image-1,
-  #image-2 {
+  .image-1,
+  .image-2 {
     display: none;
   }
 }
-
 @media (max-width: 1400px) {
+  .header h1 {
+    text-align: center;
+    font-size: 50px;
+  }
   .photo-gallery {
     display: grid;
     justify-content: center;
   }
-  #image-1 {
+  .image-1 {
     display: none;
   }
 }

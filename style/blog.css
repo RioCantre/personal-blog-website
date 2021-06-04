@@ -1,12 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Purple+Purse&family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
 
 body {
   background-color: #fff3e2 !important;
 }
 
-/* Navbar style */
+/* navbar style */
 ul {
   list-style: none;
   display: flex;
@@ -30,16 +27,15 @@ li a:hover {
   color: #ffe0b1;
 }
 
-/* Main style */
+/* main style */
 .container-fluid {
   max-width: 1000px;
   display: grid;
   justify-content: center;
 }
-
-h1 {
+.header h1 {
   font-family: "Purple Purse", cursive;
-  font-size: 64px !important;
+  font-size: 64px;
   color: #0c262a;
 }
 p {
@@ -49,7 +45,6 @@ p {
   font-size: 13px;
   font-family: "Raleway", sans-serif;
 }
-
 h2 {
   font-family: "Purple Purse", cursive;
 }
@@ -124,15 +119,16 @@ img {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   margin-top: 90px !important;
-
 }
 .subscription a:hover {
   color: #ffe0b1;
 }
+
+/* message file style */
 .container-message {
     text-align: center;
     margin-top: 10%;
-    margin-bottom: 200px;
+    margin-bottom: 230px;
 }
 .container-message h3 {
     font-size: 50px;
@@ -140,22 +136,19 @@ img {
 .container-message p {
     font-family: "Montserrat", sans-serif;
 }
-.container-message button {
+.container-message a {
   padding: 8px 13px;
   border-radius: 20px;
   background-color: #739ba4;
   border: none;
   box-shadow: 2px 2px 3px #0c262a;
-}
-.container-message button a {
   text-decoration: none;
   color: #0c262a;
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
-
-.container-message button a:hover {
+.container-message a:hover {
   color: #ffe0b1;
 }
 
@@ -169,7 +162,6 @@ footer {
   display: flex;
   justify-content: center;
 }
-
 footer p {
   color: #fff3e2;
   margin: 0;
@@ -185,9 +177,14 @@ footer p {
     display: none;
   }
   .col-8 {
-    margin-left: 80px;
+    margin-left: 50px;
+
   }
   .header {
     text-align: center;
+  }
+  .header h1 {
+    text-align: center;
+    font-size: 50px;
   }
 }
