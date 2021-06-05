@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Purple+Purse&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
-@import "/style/blog.css";
 @import "/style/footer.css";
 @import "/style/nav.css";
 
 body {
   background-color: #fff3e2 !important;
+  font-family: "Roboto", sans-serif ;
 }
 
 /* main style */
@@ -15,27 +15,34 @@ body {
   justify-content: center;
   margin-bottom: 200px;
 }
+.header {
+  margin-top: 100px;
+}
 .header h1 {
   text-align: center;
   font-family: "Purple Purse", cursive;
   font-size: 64px;
   color: #0c262a;
+  margin-bottom: 0;
 }
 p.sub-header {
   text-align: center;
   font-family: "Raleway", sans-serif !important;
+  margin-top: 0;
 }
 
 /* box style */
 .box {
   background-color: #e7d1c0;
-  padding: 20px 20px;
+  padding: 30px 20px;
   margin: 20px 20px;
   box-shadow: 5px 5px 8px #0c262a;
+  margin-top: 30px;
 }
 .box h2 {
   font-size: 30px;
   font-family: "Purple Purse", cursive;
+  margin: 0;
 }
 .box h3 {
   font-size: 12px;
