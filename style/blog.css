@@ -76,6 +76,7 @@ body {
 }
 .link-list a {
   color: #739ba4;
+  text-decoration: none;
 }
 .link-list a:hover {
   color: #ffe0b1;
@@ -196,7 +197,7 @@ body {
     text-align: justify;
     display: grid;
     justify-self: stretch;
-    margin: 20px;
+    margin-left: 20px;
     margin-top: 0 !important;
   }
   .main-content figure img {
@@ -227,7 +228,7 @@ body {
     text-align: justify;
     display: grid;
     justify-self: stretch;
-    margin: 70px;
+    margin-left: 70px;
     margin-top: 0 !important;
   }
   .main-content figure img {
@@ -259,7 +260,7 @@ body {
     text-align: justify;
     display: grid;
     justify-self: stretch;
-    margin: 60px;
+    margin-left: 60px;
     margin-top: 0;
   }
   .main-content figure img {
@@ -291,7 +292,7 @@ body {
     text-align: justify;
     display: grid;
     justify-self: stretch;
-    margin: 150px;
+    margin-left: 120px;
     margin-top: 0 !important;
   }
   .main-content figure img {
@@ -306,7 +307,7 @@ body {
    nav {
     display: flex;
     justify-content: center;
-    margin-left: 50px;
+    margin-left: 80px;
   }
   .about-menu {
     display: none;
@@ -324,7 +325,7 @@ body {
     text-align: justify;
     display: grid;
     justify-self: stretch;
-    margin: 220px;
+    margin-left: 190px;
     margin-top: 0 !important;
   }
   .main-content figure img {
