@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #fff3e2;
+  --secondary-color: #739ba4;
+  --third-color: #0c262a;
+  --forth-color: #ffe0b1;
+}
+
 /* navbar style */
 ul {
   list-style: none;
@@ -15,9 +22,9 @@ li {
 
 li a {
   text-decoration: none;
-  color: #0c262a;
+  color: var(--third-color);
 }
 
 li a:hover {
-  color: #ffe0b1;
+  color: var(--forth-color);
 }

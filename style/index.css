@@ -4,8 +4,16 @@
 @import "/style/footer.css";
 @import "/style/nav.css";
 
+:root {
+  --primary-color: #fff3e2;
+  --secondary-color: #739ba4;
+  --third-color: #0c262a;
+  --forth-color: #ffe0b1;
+  --fifith-color:#e7d1c0;
+}
+
 body {
-  background-color: #fff3e2 !important;
+  background-color: var(--primary-color) !important;
   font-family: "Roboto", sans-serif ;
 }
 
@@ -22,7 +30,7 @@ body {
   text-align: center;
   font-family: "Purple Purse", cursive;
   font-size: 64px;
-  color: #0c262a;
+  color: var(--third-color);
   margin-bottom: 0;
 }
 p.sub-header {
@@ -33,10 +41,10 @@ p.sub-header {
 
 /* box style */
 .box {
-  background-color: #e7d1c0;
+  background-color: var(--fifith-color);
   padding: 30px 20px;
   margin: 20px 20px;
-  box-shadow: 5px 5px 8px #0c262a;
+  box-shadow: 5px 5px 8px var(--third-color);
   margin-top: 30px;
 }
 .box h2 {
@@ -54,17 +62,17 @@ p.sub-header {
 .box a  {
   padding: 8px 13px;
   border-radius: 20px;
-  background-color: #739ba4;
+  background-color: var(--secondary-color);
   border: none;
-  box-shadow: 2px 2px 3px #0c262a;
+  box-shadow: 2px 2px 3px var(--third-color);
   text-decoration: none;
-  color: #0c262a;
+  color: var(--third-color);
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 .box a:hover {
-  color: #ffe0b1;
+  color: var(--forth-color);
 }
 
 /* media query */

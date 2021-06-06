@@ -4,8 +4,14 @@
 @import "/style/footer.css";
 @import "/style/nav.css";
 
+:root {
+  --primary-color: #fff3e2;
+  --secondary-color: #739ba4;
+  --third-color: #0c262a;
+  --forth-color: #ffe0b1;
+}
 body {
-  background-color: #fff3e2 !important;
+  background-color: var(--primary-color) !important;
   font-family: "Roboto", sans-serif ;
 }
 
@@ -31,7 +37,7 @@ body {
 .header-blog h1 {
   font-family: "Purple Purse", cursive;
   font-size: 64px !important;
-  color: #0c262a;
+  color: var(--third-color);
   display: flex;
   justify-content: start;
   margin: 0;
@@ -75,11 +81,11 @@ body {
   font-size: 34px;
 }
 .link-list a {
-  color: #739ba4;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 .link-list a:hover {
-  color: #ffe0b1;
+  color: var(--forth-color);
 }
 
 /* about menu style */
@@ -89,7 +95,7 @@ body {
   margin-bottom: 20px;
 }
 .about-section {
-  background: #ffe0b1;
+  background: var(--forth-color);
   padding: 10px 10px;
   margin-top: 20px;
 }
@@ -112,10 +118,10 @@ body {
   border-radius: 50%;
   font-size: 30px;
   text-decoration: none;
-  color: #739ba4;
+  color: var(--secondary-color);
 }
 .contact-section a:hover {
-  color: #ffe0b1;
+  color: var(--forth-color);
 }
 .subscription {
   margin-bottom: 200px;
@@ -132,17 +138,17 @@ body {
   border-radius: 20px;
   background-color: #739ba4;
   border: none;
-  box-shadow: 2px 2px 3px #0c262a;
+  box-shadow: 2px 2px 3px var(--third-color);
   margin-bottom: 200px;
   text-decoration: none;
-  color: #0c262a;
+  color: var(--third-color);
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 
 }
 .subscription a:hover {
-  color: #ffe0b1;
+  color: var(--forth-color);
 }
 
 /* message file style */
@@ -162,17 +168,17 @@ body {
 .container-message a {
   padding: 8px 13px;
   border-radius: 20px;
-  background-color: #739ba4;
+  background-color: var(--secondary-color);
   border: none;
-  box-shadow: 2px 2px 3px #0c262a;
+  box-shadow: 2px 2px 3px var(--third-color);
   text-decoration: none;
-  color: #0c262a;
+  color: var(--third-color);
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 .container-message a:hover {
-  color: #ffe0b1;
+  color: var(--forth-color);
 }
 
 /* media query */
