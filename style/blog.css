@@ -1,14 +1,8 @@
 
-:root {
-  --primary-color: #fff3e2;
-  --secondary-color: #739ba4;
-  --third-color: #0c262a;
-  --forth-color: #ffe0b1;
-}
-
 body {
   background-color: var(--primary-color) !important;
   font-family: "Roboto", sans-serif ;
+  color: var(--third-color);
 }
 
 /* grid system */
@@ -33,7 +27,7 @@ body {
 .header-blog h1 {
   font-family: "Purple Purse", cursive;
   font-size: 64px !important;
-  color: var(--third-color);
+  color: var(--secondary-color);
   display: flex;
   justify-content: start;
   margin: 0;
@@ -133,12 +127,12 @@ body {
 .subscription a {
   padding: 8px 13px;
   border-radius: 20px;
-  background-color: #739ba4;
+  background-color: var(--secondary-color);
   border: none;
   box-shadow: 2px 2px 3px var(--third-color);
   margin-bottom: 200px;
   text-decoration: none;
-  color: var(--third-color);
+  color: var(--fifth-color);
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -146,6 +140,7 @@ body {
 }
 .subscription a:hover {
   color: var(--forth-color);
+  background-color: var(--sixth-color);
 }
 
 /* message file style */
@@ -169,13 +164,14 @@ body {
   border: none;
   box-shadow: 2px 2px 3px var(--third-color);
   text-decoration: none;
-  color: var(--third-color);
+  color: var(--forth-color);
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 .container-message a:hover {
-  color: var(--forth-color);
+  color: var(--primary-color);
+  background-color: var(--sixth-color);
 }
 
 /* media query */

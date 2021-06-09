@@ -1,8 +1,7 @@
 :root {
-  --primary-color: #fff3e2;
-  --secondary-color: #739ba4;
-  --third-color: #0c262a;
-  --forth-color: #ffe0b1;
+  --nav-color: #B78C66;
+  --nav-secondary-color: #ffe0b1;
+
 }
 
 /* navbar style */
@@ -22,9 +21,9 @@ li {
 
 li a {
   text-decoration: none;
-  color: var(--third-color);
+  color: var(--nav-color);
 }
 
 li a:hover {
-  color: var(--forth-color);
+  color: var(--nav-secondary-color);
 }

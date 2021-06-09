@@ -1,14 +1,8 @@
 
-:root {
-  --primary-color: #fff3e2;
-  --secondary-color: #739ba4;
-  --third-color: #0c262a;
-  --forth-color: #ffe0b1;
-}
-
 body {
   background-color: var(--primary-color) !important;
   font-family: "Roboto", sans-serif ;
+  color: var(--third-color);
 }
 
 /* main style */
@@ -31,7 +25,7 @@ body {
   margin: 0;
   padding: 0;
   display: grid;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   margin-top: 50px;
 }
 .first-row,

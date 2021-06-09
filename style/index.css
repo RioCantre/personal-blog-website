@@ -7,16 +7,18 @@
 @import "/style/image.css";
 
 :root {
-  --primary-color: #fff3e2;
-  --secondary-color: #739ba4;
-  --third-color: #0c262a;
+  --primary-color: #FFF5E7;
+  --secondary-color: #0D4B59;
+  --third-color: #443E3E;
   --forth-color: #ffe0b1;
-  --fifith-color:#e7d1c0;
+  --fifth-color:#e7d1c0;
+  --sixth-color:#7C1C4C;
 }
 
 body {
   background-color: var(--primary-color) !important;
   font-family: "Roboto", sans-serif ;
+  color: var(--third-color);
 }
 
 /* main style */
@@ -32,7 +34,7 @@ body {
   text-align: center;
   font-family: "Purple Purse", cursive;
   font-size: 64px;
-  color: var(--third-color);
+  color: var(--secondary-color);
   margin-bottom: 0;
 }
 p.sub-header {
@@ -43,7 +45,7 @@ p.sub-header {
 
 /* box style */
 .box {
-  background-color: var(--fifith-color);
+  background-color: var(--fifth-color);
   padding: 30px 20px;
   margin: 20px 20px;
   box-shadow: 5px 5px 8px var(--third-color);
@@ -68,13 +70,14 @@ p.sub-header {
   border: none;
   box-shadow: 2px 2px 3px var(--third-color);
   text-decoration: none;
-  color: var(--third-color);
+  color: var(--forth-color);
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 .box a:hover {
-  color: var(--forth-color);
+  color: var(--primary-color);
+  background-color: var(--sixth-color);
 }
 
 /* media query */
