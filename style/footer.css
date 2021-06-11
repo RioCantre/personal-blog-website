@@ -4,11 +4,12 @@ footer {
   font-size: 12px;
   background-color: var(--secondary-color);
   padding: 40px;
-  display: flex;
+  display: grid;
   justify-content: center;
 }
 footer p {
   font-family: "Roboto", sans-serif;
   color: var(--primary-color);
   margin: 0;
+  font-size: 8px;
 }

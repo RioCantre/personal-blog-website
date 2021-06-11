@@ -1,6 +1,6 @@
 
 body {
-  background-color: var(--primary-color) !important;
+  background-color: var(--primary-color);
   font-family: "Roboto", sans-serif ;
   color: var(--third-color);
 }
@@ -11,7 +11,6 @@ body {
 }
 .headers {
   margin-top: 50px;
-
 }
 .header h1 {
   text-align: center;
