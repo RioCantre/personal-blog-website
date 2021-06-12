@@ -170,7 +170,7 @@ body {
   font-weight: bold;
 }
 .container-message a:hover {
-  color: var(--primary-color);
+  color: var(--forth-color);
   background-color: var(--sixth-color);
 }
 

@@ -12,7 +12,7 @@
   --third-color: #443E3E;
   --forth-color: #ffe0b1;
   --fifth-color:#e7d1c0;
-  --sixth-color:#7C1C4C;
+  --sixth-color:#739BA4;
 }
 
 body {
@@ -76,7 +76,7 @@ p.sub-header {
   font-weight: bold;
 }
 .box a:hover {
-  color: var(--primary-color);
+  color: var(--forth-color);
   background-color: var(--sixth-color);
 }
 

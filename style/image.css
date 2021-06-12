@@ -46,9 +46,19 @@ body {
 .seventh-row {
   justify-self: center;
 }
-img {
+.image-1,
+.image-2,
+.image-3,
+.image-4 {
   width: 250px;
   margin-bottom: 5px;
+  transition: all 1s;
+}
+.image-1:hover,
+.image-2:hover,
+.image-3:hover,
+.image-4:hover{
+  transform: scale(1.1);
 }
 
 /* media query */
