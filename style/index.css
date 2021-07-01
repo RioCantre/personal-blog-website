@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Purple+Purse&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
-@import "/style/nav.css";
-@import "/style/blog.css";
-@import "/style/image.css";
-@import "/style/footer.css";
+@import "nav.css";
+@import "blog.css";
+@import "image.css";
+@import "footer.css";
 
 :root {
   --primary-color: #FFF5E7;
