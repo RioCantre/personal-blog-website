@@ -27,7 +27,7 @@ website and blog post. Related CSS files also for styling.
 
 ### License
 
-Content of this repository is intended only for[ Udacity](https://www.udacity.com)'s Personal Blog Website project. All content is for personal use only and is Copyright @ 2021 - Rio Cantre.
+All content is for personal use only and is Copyright @ 2021 - Rio Cantre.
 
 
 
