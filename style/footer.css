@@ -1,7 +1,7 @@
 
 /* footer style */
 footer {
-  font-size: 12px;
+  font-size: 13px;
   background-color: var(--secondary-color);
   padding: 40px;
   display: grid;
@@ -11,5 +11,4 @@ footer p {
   font-family: "Roboto", sans-serif;
   color: var(--primary-color);
   margin: 0;
-  font-size: 8px;
 }

@@ -21,6 +21,8 @@ body {
   background-color: var(--primary-color);
   font-family: "Roboto", sans-serif ;
   color: var(--third-color);
+  padding: 0;
+  margin: 0;
 }
 
 /* main style */
@@ -30,7 +32,7 @@ body {
   margin-bottom: 200px;
 }
 .header {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 .header h1 {
   text-align: center;
@@ -46,12 +48,27 @@ p.sub-header {
 }
 
 /* box style */
+.row-1,
+.row-2 {
+  display: flex;
+}
 .box {
   background-color: var(--fifth-color);
   padding: 30px 20px;
-  margin: 20px 20px;
+  margin: 10px;
   box-shadow: 5px 5px 8px var(--third-color);
   margin-top: 30px;
+  width: 400px;
+}
+.image {
+  width: 300px;
+  margin: auto;
+  padding: 0;
+  display: block;
+}
+.details {
+  padding: 10px;
+  text-align: center;
 }
 .box h2 {
   font-size: 30px;
@@ -83,26 +100,30 @@ p.sub-header {
 }
 
 /* media query */
-@media (min-width: 150px) and (max-width: 550px) {
-  nav {
-    display: flex;
-    justify-content: center;
+@media (max-width: 996px) {
+  .box {
+    width: 350px;
   }
+}
+@media (max-width: 854px) {
+  .row-1,
+  .row-2 {
+    display: block;
+  }
+}
+@media (max-width: 425px) {
+  .box {
+    width: 300px;
+  }
+}
+@media(max-width: 320px) {
   .header h1 {
-    text-align: center;
-    font-size: 50px;
+    font-size: 55px;
   }
-}
-@media(min-width:600px) and (max-width:800px) {
-    nav {
-    display: flex;
-    justify-content: center;
+  img {
+    width: 250px;
   }
-}
-@media (min-width:1000px) and (max-width: 1400px) {
-  nav {
-    display: flex;
-    justify-content: center;
-    padding-left: 100px;
+  .box {
+    width: 250px;
   }
 }

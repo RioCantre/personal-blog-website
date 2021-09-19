@@ -11,7 +11,6 @@ body {
   grid-template-columns: repeat(12, 1fr);
   margin: auto;
   max-width: 1000px;
-  margin-top: 100px;
 }
 .header-blog {
   grid-column: span 12;
@@ -26,11 +25,12 @@ body {
 /* header style */
 .header-blog h1 {
   font-family: "Purple Purse", cursive;
-  font-size: 64px !important;
+  font-size: 64px;
   color: var(--secondary-color);
   display: flex;
   justify-content: start;
   margin: 0;
+  margin-top: 200px;
 }
 .year {
   font-family: "Roboto", sans-serif;
@@ -146,7 +146,7 @@ body {
 /* message file style */
 .container-message {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 200px;
   margin-bottom: 230px;
 }
 .container-message h3 {
@@ -175,195 +175,44 @@ body {
 }
 
 /* media query */
-@media(min-width: 280px) and (max-width:499px){
-  nav {
-    display: flex;
-    justify-content: center;
+@media(max-width: 1024px) {
+  .container-blog {
+    padding: 40px;
   }
-  .about-menu {
-    display: none;
+  .selfie {
+    width: 100%;
   }
-  .header-blog {
+  .main-content figure img {
+    width: 100%;
+  }
+  .subscription input {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .container-blog {
+    display: block;
     text-align: center;
   }
   .header-blog h1 {
-    font-size: 40px !important;
-    display: flex;
+    font-size: 55px;
     justify-content: center;
   }
   .main-content {
     padding: 0;
-    text-align: justify;
-    display: grid;
-    justify-self: stretch;
-    margin-left: 30px;
-    margin-top: 0 !important;
   }
-  .main-content figure img {
-    width: 250px;
-  }
-  .link-list {
-    text-align: center;
+  .subscription input {
+    width: 200px;
   }
 }
-@media(min-width: 500px) and (max-width:550px){
-  nav {
-    display: flex;
-    justify-content: center;
-  }
-  .about-menu {
-    display: none !important;
-  }
-  .header-blog {
-    text-align: center;
-  }
-  .header-blog h1 {
-    font-size: 60px !important;
-    display: flex;
-    justify-content: center;
-  }
+@media (max-width: 425px) {
   .main-content {
     padding: 0;
-    text-align: justify;
-    display: grid;
-    justify-self: stretch;
-    margin-left: 70px;
-    margin-top: 0 !important;
   }
-  .main-content figure img {
-    width: 250px;
-  }
-  .link-list {
-    text-align: center;
-  }
-}
 
-@media(min-width:502px) and (max-width:600px){
-   nav {
-    display: flex;
-    justify-content: center;
-    margin-left: 50px;
-  }
-  .about-menu {
-    display: none;
-  }
-  .header-blog {
-    text-align: center;
-  }
-  .header-blog h1 {
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-  }
-  .main-content {
-    padding: 0;
-    text-align: justify;
-    display: grid;
-    justify-self: stretch;
-    margin-left: 40px;
-    margin-top: 0;
-  }
-  .main-content figure img {
-    width: 350px;
-  }
-  .link-list {
-    text-align: center;
-  }
 }
-@media(min-width:580px) and (max-width:800px){
-   nav {
-    display: flex;
-    justify-content: center;
-    margin-left: 50px;
-  }
-  .about-menu {
-    display: none;
-  }
-  .header-blog {
-    text-align: center;
-  }
+@media (max-width: 325px){
   .header-blog h1 {
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-  }
-  .main-content {
-    padding: 0;
-    text-align: justify;
-    display: grid;
-    justify-self: stretch;
-    margin-left: 120px;
-    margin-top: 0 !important;
-  }
-  .main-content figure img {
-    width: 350px;
-  }
-  .link-list {
-    text-align: center;
-  }
-}
-
-@media(min-width:780px) and (max-width:900px){
-   nav {
-    display: flex;
-    justify-content: center;
-    margin-left: 80px;
-  }
-  .about-menu {
-    display: none;
-  }
-  .header-blog {
-    text-align: center;
-  }
-  .header-blog h1 {
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-  }
-  .main-content {
-    padding: 0;
-    text-align: justify;
-    display: grid;
-    justify-self: stretch;
-    margin-left: 190px;
-    margin-top: 0 !important;
-  }
-  .main-content figure img {
-    width: 350px;
-  }
-  .link-list {
-    text-align: center;
-  }
-}
-@media(min-width:900px) and (max-width:990px){
-   nav {
-    display: flex;
-    justify-content: center;
-    margin-left: 80px;
-  }
-  .about-menu {
-    display: none;
-  }
-  .header-blog {
-    text-align: center;
-  }
-  .header-blog h1 {
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-  }
-  .main-content {
-    padding: 0;
-    text-align: justify;
-    display: grid;
-    justify-self: stretch;
-    margin-left: 270px;
-    margin-top: 0 !important;
-  }
-  .main-content figure img {
-    width: 350px;
-  }
-  .link-list {
-    text-align: center;
+    font-size: 40px;
   }
 }
