@@ -1,10 +1,13 @@
-# Personal Blog Website 
+# Snailletters (Personal Blog Website )
 
 ## Overview
 A project that utilized HTML and CSS skills to build out a personal blog website with 
 appropriately structure files and proper use of formatting and style.The project starts
 from scratch and to complete the project it must include, HTML files related to blog 
 website and blog post. Related CSS files also for styling.
+
+## Demo app
+![Snailletters](snail.gif)
 
 ## Specification
 - Proper structure such as CSS import, directories, files and links.
